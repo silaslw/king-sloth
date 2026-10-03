@@ -1,12 +1,7 @@
+const bsc = prompt("Nº de Cliente");
 
-function getRow() {
+function search() {
+    let tsc = document.getElementById("");
 
-    const n = Array.from(Array(10).keys());
-
-    const s = "row";
-
-    n.forEach(function(entry) {
-        console.log(s+entry);
-    });
+    
 }
-getRow();
