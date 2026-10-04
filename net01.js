@@ -1,7 +1,13 @@
-const bsc = prompt("Nº de Cliente");
+function products() {
+    const getSelector = document.querySelectorAll("");
+    const getValues = [];
 
-function search() {
-    let tsc = document.getElementById("");
+    function requisitionOrder() {
+        const size = getSelector.length;
 
-    
+        for (let i = 0; i < size; ++i) {
+            let result = document.querySelectorAll[i];
+        }
+    getValues[i] = a; // isto não significa nada
+    }
 }
