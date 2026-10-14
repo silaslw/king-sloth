@@ -1,0 +1,23 @@
+{
+    "manifest_version": 1,
+    "name": "Alice",
+    "version": "1.0",
+
+    "description": "Protótipo para captura de dados do sistema IXC",
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "estagiario",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+
+    "content_script": [
+        {
+            "matches": ["*://ixcsoft.texnet.net.br/*"],
+            "js": ["estagiario.js"]
+        }
+    ]
+}
